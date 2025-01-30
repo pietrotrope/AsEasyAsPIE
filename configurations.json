@@ -1,0 +1,52 @@
+{
+    "SNLI": {
+        "BERT": {
+            "epochs": 2,
+            "lr": 0.00003586,
+            "batch_size": 256
+        },
+        "BiLSTM": {
+            "epochs": 39,
+            "lr": 0.0007007,
+            "batch_size": 4096
+        }
+    },
+    "IMDB": {
+        "BERT": {
+            "epochs": 3,
+            "lr": 0.00002693,
+            "batch_size": 32
+        },
+        "BiLSTM": {
+            "epochs": 26,
+            "lr": 0.001477,
+            "batch_size": 1024
+        }
+    },
+    "Reuters": {
+        "BERT": {
+            "epochs": 14,
+            "lr": 0.00005495,
+            "batch_size": 128
+        },
+        "BiLSTM": {
+            "epochs": 72,
+            "lr": 0.001863,
+            "batch_size": 512
+        }
+    },
+
+
+    "AAPD": {
+        "BERT": {
+            "epochs": 13,
+            "lr": 0.00007843331259686159,
+            "batch_size": 256
+        },
+        "BiLSTM": {
+            "epochs": 50,
+            "lr": 0.001977462824914604,
+            "batch_size": 2048
+        }
+    }
+}
